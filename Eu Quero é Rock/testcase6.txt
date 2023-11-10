@@ -4,7 +4,6 @@
 Brasília, DF, por 0 reais! Mais em www.rpm.mus.
 
 ==== OUTPUT ====
-
 #############################
 #            RPM            #
 #############################
