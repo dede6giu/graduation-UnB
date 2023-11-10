@@ -8,8 +8,8 @@ As melhores bandas do planeta sairão em turnê, e você foi contratado para a d
 ##################################
 #             TURNÊ              #
 #           CIDADE-UF            #
-#            DATA(S)             #
 #             LOCAL              #
+#            DATA(S)             #
 ##################################
 #              WWW               #
 ##################################
