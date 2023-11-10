@@ -4,7 +4,6 @@
 R$ 123.45 no site right.words.to.say.
 
 ==== OUTPUT ====
-
 ########################
 #     WHEN IN ROME     #
 ########################
