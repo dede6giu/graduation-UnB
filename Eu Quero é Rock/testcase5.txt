@@ -1,0 +1,19 @@
+==== INPUT ====
+2
+"When in Rome" no "Colosseum" com a turnê The Promise, Londrina, PR em 13/jan.
+R$ 123.45 no site right.words.to.say.
+
+==== OUTPUT ====
+
+########################
+#     WHEN IN ROME     #
+########################
+#     The Promise      #
+#     Londrina-PR      #
+#      Colosseum       #
+#        13/jan        #
+########################
+#  right.words.to.say  #
+########################
+| Ingressos: R$ 123.45 |
++----------------------+

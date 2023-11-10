@@ -1,0 +1,19 @@
+==== INPUT ====
+2
+"RPM" com único show Alvorada Voraz, na "Esplanada dos Ministérios".
+Brasília, DF, por 0 reais! Mais em www.rpm.mus.
+
+==== OUTPUT ====
+
+#############################
+#            RPM            #
+#############################
+#      Alvorada Voraz       #
+#        Brasília-DF        #
+# Esplanada dos Ministérios #
+#############################
+#        www.rpm.mus        #
+#############################
+|    Ingressos: R$ 0.00     |
+|    Utilize o cupom RPM    |
++---------------------------+

@@ -1,0 +1,23 @@
+==== INPUT ====
+4
+A banda "Queen" volta aos palcos na turnê Mustapha Mustapha Mustapha Ibrahim.
+Todas as informações estão no site www.queen.mus.
+Serão apresentações em Brasília, DF, nos dias 31/10 e 01/11, no estádio "Mané Garrincha".
+Ingressos a partir de R$ 500, mas você pode usar o cupom MAISAPC!
+
+==== OUTPUT ====
+
+######################################
+#               QUEEN                #
+######################################
+# Mustapha Mustapha Mustapha Ibrahim #
+#            Brasília-DF             #
+#           Mané Garrincha           #
+#               31/10                #
+#               01/11                #
+######################################
+#           www.queen.mus            #
+######################################
+|        Ingressos: R$ 500.00        |
+|      Utilize o cupom MAISAPC       |
++------------------------------------+

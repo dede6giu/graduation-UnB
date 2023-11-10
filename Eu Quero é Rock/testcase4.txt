@@ -1,0 +1,23 @@
+==== INPUT ====
+6
+Tem 100 reais sobrando?
+Bora!.
+Dia 11/11 tem "Autoramas" com o show Bom Veneno, no "Little Quail" de Ceilândia, DF.
+Bora!
+www.autoramasrock.com.br.
+Bora!
+
+==== OUTPUT ====
+
+############################
+#        AUTORAMAS         #
+############################
+#        Bom Veneno        #
+#       Ceilândia-DF       #
+#       Little Quail       #
+#          11/11           #
+############################
+# www.autoramasrock.com.br #
+############################
+|   Ingressos: R$ 100.00   |
++--------------------------+

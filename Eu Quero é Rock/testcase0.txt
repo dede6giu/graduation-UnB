@@ -1,0 +1,22 @@
+==== INPUT ====
+3
+Os "Raimundos" chegaram à JamPessoa, PB, com a turnê Retorno da Jurema!
+Preço único de 42 reais por tiquete, todos os detalhes estão no site palhas.do.coqueiro.br.
+Apresentações em 26/fev, 27/fev e 28/fev no "Berssange's".
+
+==== OUTPUT ====
+
+#########################
+#       RAIMUNDOS       #
+#########################
+#   Retorno da Jurema   #
+#     JamPessoa-PB      #
+#      Berssange's      #
+#        26/fev         #
+#        27/fev         #
+#        28/fev         #
+#########################
+# palhas.do.coqueiro.br #
+#########################
+|  Ingressos: R$ 42.00  |
++-----------------------+

@@ -1,0 +1,18 @@
+==== INPUT ====
+1
+"Prot(o)" no "Velvet Club", Brasília, DF, 29/05 por R$ 23,34 (proto.bandas.br) com o espetáculo Prót(o)se.
+
+==== OUTPUT ====
+
+#######################
+#       PROT(O)       #
+#######################
+#      Prót(o)se      #
+#     Brasília-DF     #
+#     Velvet Club     #
+#        29/05        #
+#######################
+#   proto.bandas.br   #
+#######################
+| Ingressos: R$ 23.34 |
++---------------------+

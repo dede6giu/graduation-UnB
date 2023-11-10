@@ -1,0 +1,25 @@
+==== INPUT ====
+3
+Anunciamos "Alceu Valença" na turnê Tu Vens!
+Shows em 27/06, 28/06, 04/07, 05/07 e 11/07, no "Bruma Leve" de Chapecó, SC.
+Entrada por R$ 5000,50, mas tem desconto com NAODUVIDO com cadastro no site www.quarando.br.
+
+==== OUTPUT ====
+
+#############################
+#       ALCEU VALENÇA       #
+#############################
+#          Tu Vens          #
+#        Chapecó-SC         #
+#        Bruma Leve         #
+#           27/06           #
+#           28/06           #
+#           04/07           #
+#           05/07           #
+#           11/07           #
+#############################
+#      www.quarando.br      #
+#############################
+|   Ingressos: R$ 5000.50   |
+| Utilize o cupom NAODUVIDO |
++---------------------------+

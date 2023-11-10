@@ -1,0 +1,20 @@
+==== INPUT ====
+4
+Última oportunidade para ver "Grand Funk Railroad" na turnê I'm your Captain.
+Grande apresentação no "El Grand Teatrón de la Frontera", em Chapecó, SC.
+Detalhes em www.grandfunk.mus, ingressos por R$ 250.00.
+Estudante paga meia.
+
+==== OUTPUT ====
+
+###################################
+#       GRAND FUNK RAILROAD       #
+###################################
+#        I'm your Captain         #
+#           Chapecó-SC            #
+# El Grand Teatrón de la Frontera #
+###################################
+#        www.grandfunk.mus        #
+###################################
+|      Ingressos: R$ 250.00       |
++---------------------------------+
