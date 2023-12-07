@@ -1,0 +1,10 @@
+==== INPUT ====
+5 5
+.....
+...V.
+.AVA.
+AVAV.
+VAVA.
+
+==== OUTPUT ====
+Vermelho na diagonal
