@@ -1,5 +1,5 @@
 # LIG4
-LIG 4 é um jogo divertido jogado em um "tabuleiro" vertical. Podemos imaginar o tabuleiro como uma série de m pilhas, com um tamanho máximo _n_ cada. Na sua jogada você pode colocar uma peça sua no topo de qualquer pilha que ainda tenha menos que _m_ peças. Vence quem conseguir deixar 4 de suas peças em posições adjacentes, seja na vertical, horizontal ou diagonal. Veja o exemplo abaixo.
+LIG 4 é um jogo divertido jogado em um "tabuleiro" vertical. Podemos imaginar o tabuleiro como uma série de _m_ pilhas, com um tamanho máximo _n_ cada. Na sua jogada você pode colocar uma peça sua no topo de qualquer pilha que ainda tenha menos que _m_ peças. Vence quem conseguir deixar 4 de suas peças em posições adjacentes, seja na vertical, horizontal ou diagonal. Veja o exemplo abaixo.
 
 ```
 .....
