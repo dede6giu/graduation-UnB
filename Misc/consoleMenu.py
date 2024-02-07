@@ -46,10 +46,10 @@ def menuResolver(commandDict:dict, title:str="Main Menu"):
     if len(commandDict) <= 9:
         # generate normal list
         
-        auxList = list(commandDict.keys()) # list containing the commands
+        pages = list(commandDict.keys()) # list containing the commands
 
-        for i in range(len(auxList)):
-            print(f"{i + 1}. {commandDict[auxList[i]]}")
+        for i in range(len(pages)):
+            print(f"{i + 1}. {commandDict[pages[i]]}")
         print("0. Exit the program")
 
         while True:
@@ -64,7 +64,7 @@ def menuResolver(commandDict:dict, title:str="Main Menu"):
                 if commandInput == 0:
                     return "exit"
                 else:
-                    return auxList[commandInput - 1]
+                    return pages[commandInput - 1]
             else:
                 print('Please write a valid number.')
                 continue
@@ -72,36 +72,36 @@ def menuResolver(commandDict:dict, title:str="Main Menu"):
     else:
         # generate more than one list
 
-        auxList = [] # list of lists containing the pages of commands
-        auxList.append(list(commandDict.keys())[0:8])
+        pages = [] # list of lists containing the pages of commands
+        pages.append(list(commandDict.keys())[0:8])
 
         iterations = (len(commandDict) - 8) // 7
         for i in range(1, iterations + 2):
-            auxList.append(list(commandDict.keys())[i*7 + 1 : (i+1)*7 + 1])
+            pages.append(list(commandDict.keys())[i*7 + 1 : (i+1)*7 + 1])
 
-        auxInt = 0 # keeps track of what page user is
+        currentPage = 0 # keeps track of what page user is
         pageMovement = 0
 
         while True:
             # prints the current page
 
-            auxInt += pageMovement
+            currentPage += pageMovement
 
             print()
-            print(f"\nPage {auxInt + 1} / {len(auxList)}\n")
+            print(f"\nPage {currentPage + 1} / {len(pages)}\n")
             print()
 
             # handles the commands
             i = 0
-            while i < len(auxList[auxInt]):
-                print(f"{i + 1}. {commandDict[auxList[auxInt][i]]}")
+            while i < len(pages[currentPage]):
+                print(f"{i + 1}. {commandDict[pages[currentPage][i]]}")
                 i += 1
                 
             # displays the page UI
-            if auxInt == 0:
+            if currentPage == 0:
                 print("9. Go to the next page ->")
                 print("0. Exit the program")
-            elif auxInt == len(auxList) - 1:
+            elif currentPage == len(pages) - 1:
                 print("8. Go to the previous page <-")
                 print("0. Exit the program")
             else:
@@ -120,9 +120,9 @@ def menuResolver(commandDict:dict, title:str="Main Menu"):
                 if commandInput in range(10):
                     if commandInput == 0:
                         return "exit"
-                    elif commandInput > len(auxList[auxInt]):
+                    elif commandInput > len(pages[currentPage]):
                         # handles the page UI
-                        if commandInput == 9 and not(auxInt == len(auxList) - 1):
+                        if commandInput == 9 and not(currentPage == len(pages) - 1):
                             pageMovement = 1
                             break
                         elif commandInput == 8:
@@ -132,7 +132,7 @@ def menuResolver(commandDict:dict, title:str="Main Menu"):
                             print('Please write a valid number.')
                             continue
                     else:
-                        return str(auxList[auxInt][commandInput - 1])
+                        return str(pages[currentPage][commandInput - 1])
                 else:
                     print('Please write a valid number.')
                     continue
