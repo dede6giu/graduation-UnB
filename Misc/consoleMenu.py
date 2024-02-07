@@ -57,7 +57,7 @@ def menuResolver(commandDict:dict, title:str="Main Menu"):
                 print()
                 commandInput = int(input("Command number: ").strip())
             except:
-                print('Please write a valid number.')
+                print("Please write a valid number.")
                 continue
 
             if commandInput in range(10):
@@ -66,7 +66,7 @@ def menuResolver(commandDict:dict, title:str="Main Menu"):
                 else:
                     return pages[commandInput - 1]
             else:
-                print('Please write a valid number.')
+                print("Please write a valid number.")
                 continue
 
     else:
@@ -114,7 +114,7 @@ def menuResolver(commandDict:dict, title:str="Main Menu"):
                     print()
                     commandInput = int(input("Command number: ").strip())
                 except:
-                    print('Please write a valid number.')
+                    print("Please write a valid number.")
                     continue
 
                 if commandInput in range(10):
@@ -129,12 +129,12 @@ def menuResolver(commandDict:dict, title:str="Main Menu"):
                             pageMovement = -1
                             break
                         else:
-                            print('Please write a valid number.')
+                            print("Please write a valid number.")
                             continue
                     else:
                         return str(pages[currentPage][commandInput - 1])
                 else:
-                    print('Please write a valid number.')
+                    print("Please write a valid number.")
                     continue
     return "error"
 
