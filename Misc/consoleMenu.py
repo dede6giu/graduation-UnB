@@ -145,7 +145,6 @@ while True:
     # Write the code here!
     # It is recommended to store the function result in a variable and read it as needed.
 
-    # handle the start of the commands
     print(f"\nThe function resolved in the following keyword: \"{menuResolver(commands)}\"")
     
     break
