@@ -114,7 +114,7 @@ chrono::steady_clock::time_point begin
         "It took " << turn << " turns to achieve it.\n" <<
         "There has been " << turn / positions.size() << " rounds.\n" <<
         "Exactly " << die << " die have been rolled.\n" <<
-        "The program has been running for " << time << " hours.\n";
+        "The program has been running for " << time << ".\n";
     }
 }
 
@@ -149,9 +149,9 @@ int main() {
     vector<int> playerPositions;
 
     // game constants
-    const int DIE_FACES = 6;      // (6)   // how many faces in the die
+    const int DIE_FACES = 6;      //  (6)  // how many faces in the die
     const int WIN_POSITION = 101; // (101) // how many spaces there are in the board
-    const int PLAYER_AMNT = 4;    // (4)   // how many players are playing
+    const int PLAYER_AMNT = 4;    //  (4)  // how many players are playing
     const chrono::steady_clock::time_point start = chrono::steady_clock::now(); // time measurement
 
     //stat variables
