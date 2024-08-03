@@ -6,14 +6,14 @@ Stack<int> implementation in c++ by dede6giu
 */
 
 class stack_bad_action : public exception { 
-private: 
-    string message;
-public: 
-    stack_bad_action(const char* msg) : message(msg) {}
-    
-    const char* what() const throw() { 
-        return message.c_str(); 
-    } 
+    private: 
+        string message;
+    public: 
+        stack_bad_action(const char* msg) : message(msg) {}
+        
+        const char* what() const throw() { 
+            return message.c_str(); 
+        } 
 }; 
 
 class Node {
