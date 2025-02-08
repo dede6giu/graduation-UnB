@@ -1,0 +1,105 @@
+// teste 10 contagem
+force -freeze sim:/contadorbcd10/clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/contadorbcd10/reset 1 0
+force -freeze sim:/contadorbcd10/enable 0 0
+force -freeze sim:/contadorbcd10/rci 0 0
+force -freeze sim:/contadorbcd10/load 0 0
+force -freeze sim:/contadorbcd10/d 0000 0
+run 100ps
+noforce sim:/contadorbcd10/reset
+force -freeze sim:/contadorbcd10/reset 0 0
+run 1100ps
+
+
+
+// teste 10 load
+force -freeze sim:/contadorbcd10/clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/contadorbcd10/reset 1 0
+force -freeze sim:/contadorbcd10/enable 0 0
+force -freeze sim:/contadorbcd10/rci 0 0
+force -freeze sim:/contadorbcd10/load 0 0
+force -freeze sim:/contadorbcd10/d 0000 0
+run 100ps
+
+noforce sim:/contadorbcd10/reset
+force -freeze sim:/contadorbcd10/reset 0 0
+run 100ps
+
+noforce sim:/contadorbcd10/load
+noforce sim:/contadorbcd10/d
+force -freeze sim:/contadorbcd10/load 1 0
+force -freeze sim:/contadorbcd10/d 0110 0
+run 100ps
+
+noforce sim:/contadorbcd10/load
+force -freeze sim:/contadorbcd10/load 0 0
+run 500ps
+
+
+
+// teste 10 reset
+force -freeze sim:/contadorbcd10/clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/contadorbcd10/reset 1 0
+force -freeze sim:/contadorbcd10/enable 0 0
+force -freeze sim:/contadorbcd10/rci 0 0
+force -freeze sim:/contadorbcd10/load 0 0
+force -freeze sim:/contadorbcd10/d 0000 0
+run 100ps
+
+noforce sim:/contadorbcd10/reset
+force -freeze sim:/contadorbcd10/reset 0 0
+run 100ps
+
+noforce sim:/contadorbcd10/load
+noforce sim:/contadorbcd10/d
+force -freeze sim:/contadorbcd10/load 1 0
+force -freeze sim:/contadorbcd10/d 0100 0
+run 100ps
+noforce sim:/contadorbcd10/load
+force -freeze sim:/contadorbcd10/load 0 0
+run 200ps
+
+noforce sim:/contadorbcd10/reset
+force -freeze sim:/contadorbcd10/reset 1 0
+run 100ps
+noforce sim:/contadorbcd10/reset
+force -freeze sim:/contadorbcd10/reset 0 0
+run 200ps
+
+
+
+// teste 100 contagem
+force -freeze sim:/contadorbcd100/clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/contadorbcd100/reset 1 0
+force -freeze sim:/contadorbcd100/enable 0 0
+force -freeze sim:/contadorbcd100/rci 0 0
+force -freeze sim:/contadorbcd100/load 0 0
+force -freeze sim:/contadorbcd100/d_uni 0000 0
+force -freeze sim:/contadorbcd100/d_dez 0000 0
+run 100ps
+noforce sim:/contadorbcd100/reset
+force -freeze sim:/contadorbcd100/reset 0 0
+run 10100ps
+
+
+// teste 100 load
+force -freeze sim:/contadorbcd100/clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/contadorbcd100/reset 1 0
+force -freeze sim:/contadorbcd100/enable 0 0
+force -freeze sim:/contadorbcd100/rci 0 0
+force -freeze sim:/contadorbcd100/load 0 0
+force -freeze sim:/contadorbcd100/d_uni 0000 0
+force -freeze sim:/contadorbcd100/d_dez 0000 0
+run 100ps
+noforce sim:/contadorbcd100/reset
+noforce sim:/contadorbcd100/load
+noforce sim:/contadorbcd100/d_uni
+noforce sim:/contadorbcd100/d_dez
+force -freeze sim:/contadorbcd100/reset 0 0
+force -freeze sim:/contadorbcd100/load 1 0
+force -freeze sim:/contadorbcd100/d_uni 0101 0
+force -freeze sim:/contadorbcd100/d_dez 0010 0
+run 100ps
+noforce sim:/contadorbcd100/load
+force -freeze sim:/contadorbcd100/load 0 0
+run 1100ps
